@@ -10,7 +10,7 @@ Antes de utilizar la API necesita tener instalado:
 * Autenticacion basado en tokens utilizando [JWT] (https://jwt.io/)
 * El usuario podra filtrar las recetas por categoria, ingredientes o nombre de receta
 * El usuario podra filtrar las categorias por su nombre
-* El usuario podra crear, modificar, eliminar o agregar una categoria
+* El usuario podra crear, modificar o eliminar una categoria
 * El usuario podra modificar o eliminar sus propias recetas
 
 
