@@ -29,6 +29,7 @@ Debe tener instalado previamente Nodejs y PostgreSQL o un servicio de PostgreSQL
 - Clonar el repositorio:
 ```
 $ git clone https://github.com/villagoizi/challenge-nodejs.git
+$ cd .\challenge-nodejs\
 $ npm install
 ```
 
