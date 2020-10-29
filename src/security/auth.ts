@@ -11,16 +11,12 @@ export const generateJWT = (payload: Payload) => sign(payload, secret, { expires
 export const verifyJWT = async (req: any) => {
         req.userId = null
         try {
-            const header = req.headers.authorization
-            if(header){
-                const token = header.split(' ')[1]
+            const token = req.get('Authorization')
+            if(token){
                 const data: any = verify(token, secret)
                 req.userId = data.userId
             }
-        } catch (e) {
-            console.log(e)
-            throw e
-        }
+        } catch {}
     }
 
 interface Payload {
