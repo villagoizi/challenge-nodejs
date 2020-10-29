@@ -6,7 +6,7 @@
     "username": "postgres",
     "password": "postgres",
     "database": "challenge",
-    "entities": ["dist/entity/*.{ts,js}"],
+    "entities": ["src/entity/*.{ts,js}"],
     "logging ": ["query", "error", "schema"],
     "synchronize": true,
     "migrationsTableName": "recipes_migration_table",
