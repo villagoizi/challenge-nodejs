@@ -10,8 +10,8 @@ Antes de utilizar la API necesita tener instalado:
 * Autenticacion basado en tokens utilizando [JWT] (https://jwt.io/)
 * El usuario podra filtrar las recetas por categoria, ingredientes o nombre de receta
 * El usuario podra filtrar las categorias por su nombre
-* El usuario podra crear, modificar, eliminar o agregar una categoria
-* El usuario podra modificar o eliminar sus propias recetas
+* El usuario podra listar, crear, modificar o eliminar una categoria
+* El usuario podra listar, modificar o eliminar sus propias recetas
 
 
 ## Herramientas y Tecnologias
@@ -29,6 +29,7 @@ Debe tener instalado previamente Nodejs y PostgreSQL o un servicio de PostgreSQL
 - Clonar el repositorio:
 ```
 $ git clone https://github.com/villagoizi/challenge-nodejs.git
+$ cd .\challenge-nodejs\
 $ npm install
 ```
 
